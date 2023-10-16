@@ -104,8 +104,7 @@ export default function PrivacyPolicy() {
         </h2>
         <p>
           If you have any questions or concerns about this Privacy Policy or the
-          data we collect, please contact us at
-          souhailbenlhachemi1999@gmail.com.
+          data we collect, please contact us at brunki204@gmail.com
         </p>
       </div>
 
