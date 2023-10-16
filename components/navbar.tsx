@@ -28,6 +28,11 @@ export default function Navbar({}): any {
             About
           </Button>
         </Link>
+        <Link href="/download-yt">
+          <Button variant="ghost" className="font-semibold text-md">
+            Youtube download
+          </Button>
+        </Link>
         <Link href="/privacy-policy">
           <Button variant="ghost" className="font-semibold text-md">
             Privacy Policy
@@ -60,6 +65,14 @@ export default function Navbar({}): any {
                     className="font-semibold text-md w-full"
                   >
                     About
+                  </Button>
+                </Link>
+                <Link href="/download-yt">
+                  <Button
+                    variant="link"
+                    className="font-semibold text-md w-full"
+                  >
+                    Youtube download
                   </Button>
                 </Link>
                 <Link href="/privacy-policy">

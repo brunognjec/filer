@@ -15,3 +15,4 @@ export default function fileToIcon(file_type: any): any {
   if (file_type.includes('image')) return <BsFillImageFill />;
   else return <AiFillFile />;
 }
+

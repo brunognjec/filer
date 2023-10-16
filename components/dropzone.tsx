@@ -29,6 +29,7 @@ import { Button } from "./ui/button";
 import loadFfmpeg from "@/utils/load-ffmpeg";
 import type { Action } from "@/types";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
+import Error from "next/error";
 
 const extensions = {
   image: [
@@ -226,6 +227,9 @@ export default function Dropzone() {
     ffmpegRef.current = ffmpeg_response;
     setIsLoaded(true);
   };
+  if (3 > 2) {
+    throw new Error("broken");
+  }
 
   // returns
   if (actions.length) {
