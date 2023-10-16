@@ -1,11 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Navbar from "@/components/navbar";
 import { Toaster } from "@/components/ui/toaster";
-import GA from "@/components/GA";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Filer - Free Unlimited File Converter",
@@ -25,11 +27,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GA GA_MEASUREMENT_ID="G-52GQ441X7H" />
-      <meta
-        name="google-site-verification"
-        content="V8lmEvFOdYBlChgR6pYABBZBhI1EFnPb1YuxTTdHXMU"
-      />
       <body className={inter.className}>
         <Navbar />
         <Toaster />
