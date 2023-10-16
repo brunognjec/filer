@@ -1,7 +1,7 @@
 export default function PrivacyPolicy() {
   return (
     <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
-      <p>Effective Date: Wed 6 Sep 2023</p>
+      <p>Effective Date: Mon October 16th 2023</p>
       <p>
         At Filer, we are committed to safeguarding your privacy. This Privacy
         Policy outlines our practices regarding the collection, use, and
